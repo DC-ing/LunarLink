@@ -1,4 +1,5 @@
 # LunarLink
+
 [![GitHub License](https://img.shields.io/github/license/tahitimoon/LunarLink?color=yellow)](https://github.com/tahitimoon/LunarLink/blob/main/LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/tahitimoon/LunarLink)](https://github.com/tahitimoon/LunarLink/releases)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tahitimoon/LunarLink)](https://github.com/tahitimoon/LunarLink/stargazers)
@@ -6,7 +7,6 @@
 [![Python Version](https://img.shields.io/badge/Python-%3E%3D3.9.5-green)](https://python.org/)
 [![Django Version](https://img.shields.io/badge/Django-3.2-blue)](https://docs.djangoproject.com/zh-hans/3.2/)
 [![Static Badge](https://img.shields.io/badge/Node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/en)
-
 
 ## 平台简介
 
@@ -50,9 +50,9 @@
 - 体验账号：test
 - 密码：test2023
 
-##  准备工作
+## 准备工作
 
-```
+```txt
 Python >= 3.9.5 (推荐3.9.x版本)
 nodejs >= 16.0 (推荐最新)
 Mysql >= 5.7.0 (推荐5.7.x版本)
@@ -60,7 +60,7 @@ RabbitMQ >= 3.x-management(默认需要，推荐最新版)
 Redis >= 6.2.6
 ```
 
-##  前端 ♝
+## 前端 ♝
 
 建议使用yarn，项目提供了`yarn.lock`，使用其他包管理器，容易出现版本依赖问题。
 
@@ -84,7 +84,7 @@ yarn start
 # yarn build
 ```
 
-##  后端 💈
+## 后端 💈
 
 ```bash
 # 克隆项目
@@ -113,7 +113,7 @@ python3 manage.py runserver
 python3 proxy.py
 ```
 
-##  访问项目
+## 访问项目
 
 ```bash
 # 登录管理后台，设置账号姓名
@@ -134,17 +134,18 @@ http://127.0.0.1:8000/swagger/
 celery -A backend worker -B --loglevel=info
 ```
 
-##  演示图 ✅
+## 演示图 ✅
 
-![](screenshots/1.png)
+![1](screenshots/1.png)
 
-![](screenshots/2.png)
+![2](screenshots/2.png)
 
-![](screenshots/3.png)
+![3](screenshots/3.png)
 
-![](screenshots/4.png)
+![4](screenshots/4.png)
 
-![](screenshots/5.gif)
+![5](screenshots/5.gif)
 
-##  Docker构建
+## Docker构建
+
 请参考文档[Docker构建](deployment/README.md)
